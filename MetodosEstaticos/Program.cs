@@ -17,8 +17,15 @@ namespace MetodosEstaticos
             
             Mayor = Comparadora.RetornarMayor(10, 5);
 
-            Sello.Mensaje = "Nuevo Mensaje";
-            Dato = Sello.Imprimir();
+            Sello.Mensaje = "Nuevo Mensaje";           
+            Sello.Color = ConsoleColor.Blue;
+
+
+
+            Sello.ImprimirEnColor();
+
+
+
         }
     }
 }

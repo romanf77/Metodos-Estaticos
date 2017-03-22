@@ -9,12 +9,12 @@ namespace MetodosEstaticos
     class Sello
     {
         public static string Mensaje;
+        public static ConsoleColor Color;
         
-        public static string Imprimir()
-    
+        public static string Imprimir()    
         {
                   
-        return Mensaje;
+            return Sello.armarMensaje();
         
         }
 
@@ -23,6 +23,24 @@ namespace MetodosEstaticos
 
             Sello.Mensaje = "";            
         }
+
+        public static void ImprimirEnColor()
+        {
+          
+            Console.ForegroundColor = Sello.Color;
+           
+            Console.WriteLine(Sello.Imprimir());
+               
+        
+        }
+        private static string armarMensaje()
+        {
+            string retorno = "";
+            retorno = Sello.Mensaje;
+
+            return retorno;
+        }
+
    
 
     }
