@@ -10,7 +10,15 @@ namespace MetodosEstaticos
     {
         static void Main(string[] args)
         {
+            int Mayor;
+            string Dato;
+            
             Console.WriteLine("Hola Mundo");
+            
+            Mayor = Comparadora.RetornarMayor(10, 5);
+
+            Sello.Mensaje = "Nuevo Mensaje";
+            Dato = Sello.Imprimir();
         }
     }
 }
