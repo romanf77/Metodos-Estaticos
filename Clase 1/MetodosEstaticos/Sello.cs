@@ -37,6 +37,37 @@ namespace MetodosEstaticos
         {
             string retorno = "";
             retorno = Sello.Mensaje;
+            int Auxiliar=0;
+            int Contador=0;
+            string AuxiliarFormato="";
+            Auxiliar = Sello.Mensaje.Length;
+
+            for (Contador = 0; Contador <= Auxiliar; Contador++)
+            { 
+               
+
+                AuxiliarFormato=AuxiliarFormato+"*";
+
+            
+            
+            }
+
+            AuxiliarFormato=AuxiliarFormato+"\n*"+retorno+"*\n";
+
+            for (Contador = 0; Contador <= Auxiliar; Contador++)
+            {
+
+
+                AuxiliarFormato = AuxiliarFormato + "*";
+
+
+
+            }
+
+
+
+            
+            
 
             return retorno;
         }
