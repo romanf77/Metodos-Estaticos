@@ -17,12 +17,13 @@ namespace MetodosEstaticos
             
             Mayor = Comparadora.RetornarMayor(10, 5);
 
-            Sello.Mensaje = "Nuevo Mensaje";           
+            Sello.Mensaje = "Mi nombre es roman floris";           
             Sello.Color = ConsoleColor.Blue;
 
 
 
             Sello.ImprimirEnColor();
+            Console.ReadLine();
 
 
 

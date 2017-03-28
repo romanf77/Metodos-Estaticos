@@ -42,7 +42,7 @@ namespace MetodosEstaticos
             string AuxiliarFormato="";
             Auxiliar = Sello.Mensaje.Length;
 
-            for (Contador = 0; Contador <= Auxiliar; Contador++)
+            for (Contador = 0; Contador <= Auxiliar+1; Contador++)
             { 
                
 
@@ -54,7 +54,7 @@ namespace MetodosEstaticos
 
             AuxiliarFormato=AuxiliarFormato+"\n*"+retorno+"*\n";
 
-            for (Contador = 0; Contador <= Auxiliar; Contador++)
+            for (Contador = 0; Contador <= Auxiliar+1; Contador++)
             {
 
 
@@ -65,7 +65,7 @@ namespace MetodosEstaticos
             }
 
 
-
+            retorno = AuxiliarFormato;
             
             
 
