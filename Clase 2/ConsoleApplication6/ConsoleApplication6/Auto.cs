@@ -35,7 +35,8 @@ namespace Instancia
             this.Fabricante = eFabricante.Ford;
             Auto.CantidadDeInstancias++;
         ///El fabricante cargado se genere de manera random entre las 3 opciones existentes, probar que halla generado 3 objetos random.//
-        
+        /// creo un atributo estatico de tipo random
+        /// inisializo el objeto en el constructor estatico
         }
         // Constructor Estatico
         //1. No puede tener modificador de visibilidad//
