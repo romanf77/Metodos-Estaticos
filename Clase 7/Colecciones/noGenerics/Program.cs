@@ -23,7 +23,7 @@ namespace noGenerics
 
             miArray.Add(3);
                      
-            foreach (Producto item in miArray)
+            //foreach (Producto item in miArray)
             {
                 //item.Mostrar(); Esto genera error al no ser todos del mismo tipo              
             }
@@ -34,13 +34,13 @@ namespace noGenerics
 
             Pila.Pop();
 
-            Pila.Peek();
+            //Pila.Peek();
 
             Queue Cola = new Queue();
 
-            Cola.Peek();
+            //Cola.Peek();
 
-            Cola.Dequeue();
+            //Cola.Dequeue();
 
             Cola.Enqueue(1);
 

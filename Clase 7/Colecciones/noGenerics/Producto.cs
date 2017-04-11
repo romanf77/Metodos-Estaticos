@@ -11,6 +11,18 @@ namespace noGenerics
         public int Codigo;
         public string Descripcion;
 
+        public Producto()
+        { 
+        
+        }
+
+
+        public Producto(string Descripcion)
+        {
+            this.Descripcion = Descripcion;
+               
+        }
+
         public void Mostrar()
         {
             Console.WriteLine(this.Codigo);
