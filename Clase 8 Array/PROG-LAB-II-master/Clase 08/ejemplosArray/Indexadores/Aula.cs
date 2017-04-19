@@ -17,12 +17,12 @@ namespace Indexadores
         
         }
 
-        public Alumno this[int Indice]
+       /* public Alumno this[int Indice]
         {
             get { return this._ListadoDeAlumnos[Indice]; }
-            set { }
+            set { si esta se agrega en el lugar, sino se agrega al final}
         
-        }
+        }*/
 
     }
 }
